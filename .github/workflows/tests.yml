@@ -65,3 +65,13 @@ jobs:
           header: test-report
           recreate: true
           path: test-report.md
+
+      - name: Output reports to the job summary
+        #if: failure()
+        shell: bash
+        run:
+          echo "<details><summary>Failed Test Report</summary>" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          cat test-report.md >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "</details>" >> $GITHUB_STEP_SUMMARY
