@@ -9,3 +9,5 @@ services:
       - .env
     networks:
       - default
+    volumes:
+      - ./:/app/src

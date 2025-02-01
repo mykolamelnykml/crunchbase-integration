@@ -1,6 +1,6 @@
 name: Testing api
 
-on: push
+on: pull_request
 
 jobs:
   lint:
@@ -26,6 +26,14 @@ jobs:
         run: poetry run pre-commit run -a ${{ matrix.cmd }}
   pytest:
     runs-on: ubuntu-latest
+    permissions:
+      # Gives the action the necessary permissions for publishing new
+      # comments in pull requests.
+      pull-requests: write
+      # Gives the action the necessary permissions for pushing data to the
+      # python-coverage-comment-action branch, and for editing existing
+      # comments (to avoid publishing multiple comments in the same PR)
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - name: Create .env
@@ -49,3 +57,21 @@ jobs:
         with:
           coverageFile: ./coverage.xml
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Render the report to the PR
+        uses: marocchino/sticky-pull-request-comment@v2
+        #if: failure()
+        with:
+          header: test-report
+          recreate: true
+          path: test-report.md
+
+      - name: Output reports to the job summary
+        #if: failure()
+        shell: bash
+        run: |
+          echo "<details><summary>Failed Test Report</summary>" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          cat test-report.md >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "</details>" >> $GITHUB_STEP_SUMMARY
