@@ -42,5 +42,10 @@ jobs:
         with:
           version: "2.28.0"
       - name: run tests
-        run: docker-compose run --rm main pytest -vv
+        run: docker-compose run --rm main pytest -vv --cov-report=xml --cov=crunchbase
 
+      - name: Get Cover
+        uses: orgoro/coverage@v3.2
+        with:
+          coverageFile: ./coverage.xml
+          token: ${{ secrets.GITHUB_TOKEN }}

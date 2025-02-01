@@ -51,8 +51,8 @@ By default it runs:
 If you want to run it in docker, simply run:
 
 ```bash
-docker-compose run --build --rm main pytest -vv .
-docker-compose down
+docker compose run --build --rm main pytest -vv --cov=crunchbase .
+docker compose down
 ```
 
 For running tests on your local machine.
@@ -60,7 +60,7 @@ For running tests on your local machine.
 
 2. Run the pytest.
 ```bash
-pytest -vv .
+pytest -vv --cov=crunchbase . 
 ```
 
 
