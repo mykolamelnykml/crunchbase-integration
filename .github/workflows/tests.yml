@@ -57,3 +57,11 @@ jobs:
         with:
           coverageFile: ./coverage.xml
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Render the report to the PR
+        uses: marocchino/sticky-pull-request-comment@v2
+        #if: failure()
+        with:
+          header: test-report
+          recreate: true
+          path: test-report.md
