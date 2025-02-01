@@ -42,5 +42,5 @@ jobs:
         with:
           version: "2.28.0"
       - name: run tests
-        run: docker-compose run --rm api pytest -vv
+        run: docker-compose run --rm main pytest -vv
 
