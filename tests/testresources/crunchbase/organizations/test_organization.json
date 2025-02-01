@@ -1,0 +1,884 @@
+{
+  "cards": {
+    "child_organizations": [
+      {
+        "acquirer_identifier": {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        },
+        "aliases": [
+          "string"
+        ],
+        "categories": [
+          {
+            "entity_def_id": "string",
+            "image_id": "string",
+            "permalink": "string",
+            "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "value": "string"
+          }
+        ],
+        "category_groups": [
+          {
+            "entity_def_id": "string",
+            "image_id": "string",
+            "permalink": "string",
+            "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "value": "string"
+          }
+        ],
+        "closed_on": {
+          "precision": "string",
+          "value": "2025-02-01"
+        },
+        "company_type": "string",
+        "contact_email": "string",
+        "created_at": "2025-02-01T04:13:54.950Z",
+        "delisted_on": {
+          "precision": "string",
+          "value": "2025-02-01"
+        },
+        "demo_days": true,
+        "description": "string",
+        "entity_def_id": "string",
+        "exited_on": {
+          "precision": "string",
+          "value": "2025-02-01"
+        },
+        "facebook": {
+          "label": "string",
+          "value": "string"
+        },
+        "facet_ids": [
+          "string"
+        ],
+        "founded_on": {
+          "precision": "string",
+          "value": "2025-02-01"
+        },
+        "founder_identifiers": [
+          {
+            "entity_def_id": "string",
+            "image_id": "string",
+            "permalink": "string",
+            "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "value": "string"
+          }
+        ],
+        "hub_tags": [
+          "string"
+        ],
+        "identifier": {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        },
+        "image_id": "string",
+        "image_url": "string",
+        "layout_id": "string",
+        "legal_name": "string",
+        "linkedin": {
+          "label": "string",
+          "value": "string"
+        },
+        "listed_stock_symbol": "string",
+        "location_group_identifiers": [
+          {
+            "entity_def_id": "string",
+            "image_id": "string",
+            "location_type": "city",
+            "permalink": "string",
+            "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "value": "string"
+          }
+        ],
+        "location_identifiers": [
+          {
+            "entity_def_id": "string",
+            "image_id": "string",
+            "location_type": "city",
+            "permalink": "string",
+            "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "value": "string"
+          }
+        ],
+        "name": "string",
+        "num_alumni": 0,
+        "num_current_advisor_positions": 0,
+        "num_current_positions": 0,
+        "num_employees_enum": "string",
+        "num_enrollments": "string",
+        "num_event_appearances": 0,
+        "num_portfolio_organizations": 0,
+        "num_sub_organizations": 0,
+        "operating_status": "string",
+        "owner_identifier": {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        },
+        "permalink": "string",
+        "permalink_aliases": [
+          "string"
+        ],
+        "phone_number": "string",
+        "program_application_deadline": "2025-02-01",
+        "program_duration": 0,
+        "program_type": "string",
+        "rank": 0,
+        "rank_org": 0,
+        "school_method": "string",
+        "school_program": "string",
+        "school_type": "string",
+        "short_description": "string",
+        "status": "string",
+        "stock_exchange_symbol": "string",
+        "stock_symbol": {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        },
+        "twitter": {
+          "label": "string",
+          "value": "string"
+        },
+        "updated_at": "2025-02-01T04:13:54.950Z",
+        "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "website": {
+          "label": "string",
+          "value": "string"
+        },
+        "website_url": "string",
+        "went_public_on": "2025-02-01"
+      }
+    ],
+    "child_ownerships": [
+      {
+        "created_at": "2025-02-01T04:13:54.950Z",
+        "entity_def_id": "string",
+        "identifier": {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        },
+        "name": "string",
+        "ownee_identifier": {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        },
+        "owner_identifier": {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        },
+        "ownership_type": "string",
+        "permalink": "string",
+        "rank": 0,
+        "updated_at": "2025-02-01T04:13:54.950Z",
+        "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+      }
+    ],
+    "event_appearances": [
+      {
+        "appearance_type": "string",
+        "created_at": "2025-02-01T04:13:54.950Z",
+        "entity_def_id": "string",
+        "event_identifier": {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        },
+        "event_location_identifiers": [
+          {
+            "entity_def_id": "string",
+            "image_id": "string",
+            "location_type": "city",
+            "permalink": "string",
+            "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "value": "string"
+          }
+        ],
+        "event_starts_on": "2025-02-01",
+        "identifier": {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        },
+        "name": "string",
+        "participant_identifier": {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        },
+        "permalink": "string",
+        "short_description": "string",
+        "updated_at": "2025-02-01T04:13:54.950Z",
+        "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+      }
+    ],
+    "fields": {
+      "acquirer_identifier": {
+        "entity_def_id": "string",
+        "image_id": "string",
+        "permalink": "string",
+        "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "value": "string"
+      },
+      "aliases": [
+        "string"
+      ],
+      "categories": [
+        {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        }
+      ],
+      "category_groups": [
+        {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        }
+      ],
+      "closed_on": {
+        "precision": "string",
+        "value": "2025-02-01"
+      },
+      "company_type": "string",
+      "contact_email": "string",
+      "created_at": "2025-02-01T04:13:54.950Z",
+      "delisted_on": {
+        "precision": "string",
+        "value": "2025-02-01"
+      },
+      "demo_days": true,
+      "description": "string",
+      "entity_def_id": "string",
+      "exited_on": {
+        "precision": "string",
+        "value": "2025-02-01"
+      },
+      "facebook": {
+        "label": "string",
+        "value": "string"
+      },
+      "facet_ids": [
+        "string"
+      ],
+      "founded_on": {
+        "precision": "string",
+        "value": "2025-02-01"
+      },
+      "founder_identifiers": [
+        {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        }
+      ],
+      "hub_tags": [
+        "string"
+      ],
+      "identifier": {
+        "entity_def_id": "string",
+        "image_id": "string",
+        "permalink": "string",
+        "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "value": "string"
+      },
+      "image_id": "string",
+      "image_url": "string",
+      "layout_id": "string",
+      "legal_name": "string",
+      "linkedin": {
+        "label": "string",
+        "value": "string"
+      },
+      "listed_stock_symbol": "string",
+      "location_group_identifiers": [
+        {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "location_type": "city",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        }
+      ],
+      "location_identifiers": [
+        {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "location_type": "city",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        }
+      ],
+      "name": "string",
+      "num_alumni": 0,
+      "num_current_advisor_positions": 0,
+      "num_current_positions": 0,
+      "num_employees_enum": "string",
+      "num_enrollments": "string",
+      "num_event_appearances": 0,
+      "num_portfolio_organizations": 0,
+      "num_sub_organizations": 0,
+      "operating_status": "string",
+      "owner_identifier": {
+        "entity_def_id": "string",
+        "image_id": "string",
+        "permalink": "string",
+        "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "value": "string"
+      },
+      "permalink": "string",
+      "permalink_aliases": [
+        "string"
+      ],
+      "phone_number": "string",
+      "program_application_deadline": "2025-02-01",
+      "program_duration": 0,
+      "program_type": "string",
+      "rank": 0,
+      "rank_org": 0,
+      "school_method": "string",
+      "school_program": "string",
+      "school_type": "string",
+      "short_description": "string",
+      "status": "string",
+      "stock_exchange_symbol": "string",
+      "stock_symbol": {
+        "entity_def_id": "string",
+        "image_id": "string",
+        "permalink": "string",
+        "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "value": "string"
+      },
+      "twitter": {
+        "label": "string",
+        "value": "string"
+      },
+      "updated_at": "2025-02-01T04:13:54.950Z",
+      "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "website": {
+        "label": "string",
+        "value": "string"
+      },
+      "website_url": "string",
+      "went_public_on": "2025-02-01"
+    },
+    "founders": [
+      {
+        "aliases": [
+          "string"
+        ],
+        "born_on": "2025-02-01",
+        "created_at": "2025-02-01T04:13:54.950Z",
+        "description": "string",
+        "died_on": "2025-02-01",
+        "entity_def_id": "string",
+        "facebook": {
+          "label": "string",
+          "value": "string"
+        },
+        "facet_ids": [
+          "string"
+        ],
+        "first_name": "string",
+        "gender": "string",
+        "identifier": {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        },
+        "image_id": "string",
+        "image_url": "string",
+        "last_name": "string",
+        "layout_id": "string",
+        "linkedin": {
+          "label": "string",
+          "value": "string"
+        },
+        "location_group_identifiers": [
+          {
+            "entity_def_id": "string",
+            "image_id": "string",
+            "location_type": "city",
+            "permalink": "string",
+            "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "value": "string"
+          }
+        ],
+        "location_identifiers": [
+          {
+            "entity_def_id": "string",
+            "image_id": "string",
+            "location_type": "city",
+            "permalink": "string",
+            "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "value": "string"
+          }
+        ],
+        "middle_name": "string",
+        "name": "string",
+        "num_current_advisor_jobs": 0,
+        "num_current_jobs": 0,
+        "num_event_appearances": 0,
+        "num_founded_organizations": 0,
+        "num_jobs": 0,
+        "num_past_advisor_jobs": 0,
+        "num_past_jobs": 0,
+        "num_portfolio_organizations": 0,
+        "permalink": "string",
+        "permalink_aliases": [
+          "string"
+        ],
+        "primary_job_title": "string",
+        "primary_organization": {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        },
+        "rank": 0,
+        "rank_person": 0,
+        "short_description": "string",
+        "twitter": {
+          "label": "string",
+          "value": "string"
+        },
+        "updated_at": "2025-02-01T04:13:54.950Z",
+        "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "website": {
+          "label": "string",
+          "value": "string"
+        },
+        "website_url": "string"
+      }
+    ],
+    "headquarters_address": [
+      {
+        "country_code": "string",
+        "created_at": "2025-02-01T04:13:54.950Z",
+        "entity_def_id": "string",
+        "headquartered_organization_identifier": {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        },
+        "identifier": {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        },
+        "location_identifiers": [
+          {
+            "entity_def_id": "string",
+            "image_id": "string",
+            "location_type": "city",
+            "permalink": "string",
+            "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "value": "string"
+          }
+        ],
+        "name": "string",
+        "postal_code": "string",
+        "region_code": "string",
+        "street_1": "string",
+        "street_2": "string",
+        "updated_at": "2025-02-01T04:13:54.950Z",
+        "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+      }
+    ],
+    "parent_organization": [
+      {
+        "acquirer_identifier": {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        },
+        "aliases": [
+          "string"
+        ],
+        "categories": [
+          {
+            "entity_def_id": "string",
+            "image_id": "string",
+            "permalink": "string",
+            "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "value": "string"
+          }
+        ],
+        "category_groups": [
+          {
+            "entity_def_id": "string",
+            "image_id": "string",
+            "permalink": "string",
+            "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "value": "string"
+          }
+        ],
+        "closed_on": {
+          "precision": "string",
+          "value": "2025-02-01"
+        },
+        "company_type": "string",
+        "contact_email": "string",
+        "created_at": "2025-02-01T04:13:54.950Z",
+        "delisted_on": {
+          "precision": "string",
+          "value": "2025-02-01"
+        },
+        "demo_days": true,
+        "description": "string",
+        "entity_def_id": "string",
+        "exited_on": {
+          "precision": "string",
+          "value": "2025-02-01"
+        },
+        "facebook": {
+          "label": "string",
+          "value": "string"
+        },
+        "facet_ids": [
+          "string"
+        ],
+        "founded_on": {
+          "precision": "string",
+          "value": "2025-02-01"
+        },
+        "founder_identifiers": [
+          {
+            "entity_def_id": "string",
+            "image_id": "string",
+            "permalink": "string",
+            "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "value": "string"
+          }
+        ],
+        "hub_tags": [
+          "string"
+        ],
+        "identifier": {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        },
+        "image_id": "string",
+        "image_url": "string",
+        "layout_id": "string",
+        "legal_name": "string",
+        "linkedin": {
+          "label": "string",
+          "value": "string"
+        },
+        "listed_stock_symbol": "string",
+        "location_group_identifiers": [
+          {
+            "entity_def_id": "string",
+            "image_id": "string",
+            "location_type": "city",
+            "permalink": "string",
+            "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "value": "string"
+          }
+        ],
+        "location_identifiers": [
+          {
+            "entity_def_id": "string",
+            "image_id": "string",
+            "location_type": "city",
+            "permalink": "string",
+            "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "value": "string"
+          }
+        ],
+        "name": "string",
+        "num_alumni": 0,
+        "num_current_advisor_positions": 0,
+        "num_current_positions": 0,
+        "num_employees_enum": "string",
+        "num_enrollments": "string",
+        "num_event_appearances": 0,
+        "num_portfolio_organizations": 0,
+        "num_sub_organizations": 0,
+        "operating_status": "string",
+        "owner_identifier": {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        },
+        "permalink": "string",
+        "permalink_aliases": [
+          "string"
+        ],
+        "phone_number": "string",
+        "program_application_deadline": "2025-02-01",
+        "program_duration": 0,
+        "program_type": "string",
+        "rank": 0,
+        "rank_org": 0,
+        "school_method": "string",
+        "school_program": "string",
+        "school_type": "string",
+        "short_description": "string",
+        "status": "string",
+        "stock_exchange_symbol": "string",
+        "stock_symbol": {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        },
+        "twitter": {
+          "label": "string",
+          "value": "string"
+        },
+        "updated_at": "2025-02-01T04:13:54.950Z",
+        "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "website": {
+          "label": "string",
+          "value": "string"
+        },
+        "website_url": "string",
+        "went_public_on": "2025-02-01"
+      }
+    ],
+    "parent_ownership": [
+      {
+        "created_at": "2025-02-01T04:13:54.950Z",
+        "entity_def_id": "string",
+        "identifier": {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        },
+        "name": "string",
+        "ownee_identifier": {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        },
+        "owner_identifier": {
+          "entity_def_id": "string",
+          "image_id": "string",
+          "permalink": "string",
+          "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "value": "string"
+        },
+        "ownership_type": "string",
+        "permalink": "string",
+        "rank": 0,
+        "updated_at": "2025-02-01T04:13:54.950Z",
+        "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+      }
+    ]
+  },
+  "properties": {
+    "acquirer_identifier": {
+      "entity_def_id": "string",
+      "image_id": "string",
+      "permalink": "string",
+      "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "value": "string"
+    },
+    "aliases": [
+      "string"
+    ],
+    "categories": [
+      {
+        "entity_def_id": "string",
+        "image_id": "string",
+        "permalink": "string",
+        "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "value": "string"
+      }
+    ],
+    "category_groups": [
+      {
+        "entity_def_id": "string",
+        "image_id": "string",
+        "permalink": "string",
+        "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "value": "string"
+      }
+    ],
+    "closed_on": {
+      "precision": "string",
+      "value": "2025-02-01"
+    },
+    "company_type": "string",
+    "contact_email": "string",
+    "created_at": "2025-02-01T04:13:54.950Z",
+    "delisted_on": {
+      "precision": "string",
+      "value": "2025-02-01"
+    },
+    "demo_days": true,
+    "description": "string",
+    "entity_def_id": "string",
+    "exited_on": {
+      "precision": "string",
+      "value": "2025-02-01"
+    },
+    "facebook": {
+      "label": "string",
+      "value": "string"
+    },
+    "facet_ids": [
+      "string"
+    ],
+    "founded_on": {
+      "precision": "string",
+      "value": "2025-02-01"
+    },
+    "founder_identifiers": [
+      {
+        "entity_def_id": "string",
+        "image_id": "string",
+        "permalink": "string",
+        "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "value": "string"
+      }
+    ],
+    "hub_tags": [
+      "string"
+    ],
+    "identifier": {
+      "entity_def_id": "string",
+      "image_id": "string",
+      "permalink": "string",
+      "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "value": "string"
+    },
+    "image_id": "string",
+    "image_url": "string",
+    "layout_id": "string",
+    "legal_name": "string",
+    "linkedin": {
+      "label": "string",
+      "value": "string"
+    },
+    "listed_stock_symbol": "string",
+    "location_group_identifiers": [
+      {
+        "entity_def_id": "string",
+        "image_id": "string",
+        "location_type": "city",
+        "permalink": "string",
+        "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "value": "string"
+      }
+    ],
+    "location_identifiers": [
+      {
+        "entity_def_id": "string",
+        "image_id": "string",
+        "location_type": "city",
+        "permalink": "string",
+        "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "value": "string"
+      }
+    ],
+    "name": "string",
+    "num_alumni": 0,
+    "num_current_advisor_positions": 0,
+    "num_current_positions": 0,
+    "num_employees_enum": "string",
+    "num_enrollments": "string",
+    "num_event_appearances": 0,
+    "num_portfolio_organizations": 0,
+    "num_sub_organizations": 0,
+    "operating_status": "string",
+    "owner_identifier": {
+      "entity_def_id": "string",
+      "image_id": "string",
+      "permalink": "string",
+      "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "value": "string"
+    },
+    "permalink": "string",
+    "permalink_aliases": [
+      "string"
+    ],
+    "phone_number": "string",
+    "program_application_deadline": "2025-02-01",
+    "program_duration": 0,
+    "program_type": "string",
+    "rank": 0,
+    "rank_org": 0,
+    "school_method": "string",
+    "school_program": "string",
+    "school_type": "string",
+    "short_description": "string",
+    "status": "string",
+    "stock_exchange_symbol": "string",
+    "stock_symbol": {
+      "entity_def_id": "string",
+      "image_id": "string",
+      "permalink": "string",
+      "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "value": "string"
+    },
+    "twitter": {
+      "label": "string",
+      "value": "string"
+    },
+    "updated_at": "2025-02-01T04:13:54.950Z",
+    "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "website": {
+      "label": "string",
+      "value": "string"
+    },
+    "website_url": "string",
+    "went_public_on": "2025-02-01"
+  }
+}
