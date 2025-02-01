@@ -1,0 +1,11 @@
+services:
+  main: &main_app
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: crunchbase:${CRUNCHBASE_VERSION:-latest}
+    restart: always
+    env_file:
+      - .env
+    networks:
+      - default
