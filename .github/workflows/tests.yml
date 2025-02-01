@@ -69,7 +69,7 @@ jobs:
       - name: Output reports to the job summary
         #if: failure()
         shell: bash
-        run:
+        run: |
           echo "<details><summary>Failed Test Report</summary>" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           cat test-report.md >> $GITHUB_STEP_SUMMARY
